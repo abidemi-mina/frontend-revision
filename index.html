@@ -6,14 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
  </head>
  <body>
-        <div class="main">
-                <img id="first" src="images/burger.jpg" alt="">
-            <div class="red">
-                <img id="logoh" src="images/logo-head.png" alt="">
+        <main class="main">
+            <header id="siteHeader"></header>
+            <div class="red" id="footer-food">
+                <div>
+                    <img id="logoh" src="images/logo-head.png" alt="">
+                </div>
+                <div class="heading-bg heading">
+                    <h1>Food Menu Pastas</h1> 
+                </div>
+
                 <table>
-                    <p id="pas" class="heading-bg">Food Menu Pastas</p> 
                     <tr>
                         <td>Beans Porridge </td>
                         <td>..................................................................................</td>
@@ -74,41 +80,39 @@
                         <td>..................................................................................</td>
                         <td>N2000</td>
                     </tr>
-                    
                 </table>
-                <img id="footer-food" src="images/footer-food.png" alt="">
+                <!-- <div id="footer-food"></div> -->
             </div>
             <div class="form">
                 <div class="form2">
                     <form action="" method="post">
                         <div id="menu">
                             <p id="pasta">Food Menu Pastas</p>
-                            <p class="heading-bg">Food Menu Pastas</p> 
+                            <div class="heading-bg ">
+                                <h1>Food Menu Pastas</h1> 
+                            </div>                        </div>
+                        <div class="form-control">
+                            <input type="name" name="" id="" placeholder="Enter Your Name">
                         </div>
-                        <input type="name " name="" id="" placeholder="Enter Your Name">
-                        <br>
-                        <br>
-                        <input type="name " name="" id="" placeholder="Enter Your Name">
-                        <br>
-                        <br>
-                        <select name="Choose your location" id="">
+                        <div class="form-control">
+                            <input type="name" name="" id="" placeholder="Enter Your Name">
+                        </div>
+                       <div class="form-control">
+                        <select name="Choose your location" id="" >
                             <option value="Choose an option" selected>Choose an option</option>
                             <option value="Agege">Agege</option>
                             <option value="Somolu">Somolu</option>
                             <option value="Ikorodu">Ikorodu</option>
                         </select>
-                        <br>
-                        <br>
+                       </div>
+                       
                         <textarea name="" id="" rows="10" cols="20" ></textarea>
-                        <br>
-                        <br>
-                        <button type="submit">Submit</button>
+                        <button type="submit">Submit <i class="far fa-paper-plane"></i></button>
                     </form>
                 </div>
                 
             </div>
-        <br>
-        <br>
-    </div>
+        
+    </main>
  </body>
  </html>
