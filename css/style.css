@@ -23,12 +23,12 @@ body{
 }
 h1,h2,h3,h4,h5,h6{
     font-family: 'pinyon_scriptregular';
-    font-size:larger;
+    font-size:xx-large;
 }
 #siteHeader
 {
     background: url(../images/burger.jpg) no-repeat center center/cover;
-    height: 230px;
+    height: 330px;
 }
 main{
     width: 50%;
@@ -38,9 +38,7 @@ main{
 /* img{
     max-width: 100%;
 } */
-p{
-    font-size: smaller;
-}
+
 
 table{
     /* top: 10px; */
@@ -48,7 +46,7 @@ table{
     width: 100%;
     border-spacing: 0px 2px;
     font-weight: lighter;
-    font-size: xx-small;
+    font-size: medium;
     font-style: oblique;
     padding-left: 30px;
     /* padding-top: 40PX; */
@@ -56,30 +54,33 @@ table{
 
 
 table td{
-    column-gap: 5px;
+padding-bottom: 10px;
 }
 .red{
 background-color: red;
 color: white;
 height: auto;
 margin-top: -21px;
-padding-bottom:80px
+padding-bottom:90px
 }
 
 
 #logoh{
     /* width: 10%; */
     border:solid 3px red;
-    border-radius: 30px ;
+    border-radius: 35px ;
     background-color: red;
     left: 47%;
-    top: 40%;
+    top: 35%;
     position: absolute;
-    height: 50px;
+    height: 70px;
     margin-bottom: 10%;
 }#pasta{
     margin-bottom: -12px;
     text-align: center;
+    font-size:large;
+    font-weight: bold;
+
 }
 
 
@@ -89,7 +90,8 @@ padding-bottom:80px
 
 
 #footer-food{
-    background:url("../images/footer-food.png") 340px 270px / 25% 90px no-repeat red
+    background:url("../images/footer-food.png") 660px 395px / 120px 90px no-repeat red;
+    width: 100%;
 }
 .heading{
     padding-top: 12px;
@@ -103,7 +105,7 @@ padding-bottom:80px
     margin-left: 25%;
     padding: 5px;
     color: black;
-    top: 20px;
+    top: 10px;
 }
 .form{
     background-image: url(../images/food-plate2.jpg);
@@ -120,16 +122,16 @@ form{
     padding: 0px 10px;
 }
 .form-control{
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 form input, textarea, select{
     background: none;
-    border-radius: 7px;
+    border-radius: 15px;
     border: solid white 1px ;
     color: white !important;
-    font-size:7px;
-    width:400px;
-    padding: 7px;
+    font-size:13px;
+    width:100%;
+    padding: 15px;
     max-width: -webkit-fill-available;
 }
 input::placeholder{
@@ -137,16 +139,16 @@ input::placeholder{
 }
 select,select option{
     color: black;
-    width: 415px;
+    width: 100%;
     max-width: -webkit-fill-available;
 }
 
 button{
     background-color: yellow;
-    width:415px;
+    width:100%;
     border-radius: 7px;
     border: none;
-    font-size:7px;
-    padding: 5px;
+    font-size:14px;
+    padding: 8px;
     font-weight: bold;
 }
